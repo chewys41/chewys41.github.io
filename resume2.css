@@ -1,0 +1,54 @@
+body {
+    background-color:  #33ffff;
+}
+.mainFont {
+    text-decoration: underline;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    padding-top: 20px
+}
+
+.links {
+    list-style-type: none;
+}
+.links li {
+    float: left;
+    padding: 0px 20px 0px 20px;
+    color: blue;
+}
+.links li:hover {
+    color: red;
+}
+.aboutme {
+    padding-top: 20px;
+}
+.facts {
+    text-decoration: underline;
+}
+.interests {
+    text-decoration: underline;
+
+}
+table, td, th {
+    border: 1px solid black;
+}
+table {
+    border: collapse;
+    width: 100%;
+}
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+.professional {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+}
+.educationTitle {
+    text-decoration: underline;
+}
+.education > p {
+    margin: 0em;
+    padding: 0em;
+}
