@@ -1,0 +1,91 @@
+body {
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);}
+
+.box {
+    background-color: #5fc3e4;
+    position: absolute;
+    height: 90%;
+    width: 20%;
+    top: 7%;
+}
+.funFactContact {
+    padding-left: 30%;
+    padding-top: 10%;
+    font-size: 20px;
+    font-family: 'Spicy Rice', cursive;;
+}
+
+.image {
+  
+     width: 100%;
+     height: 40%;
+}
+.links a:hover{
+    background-color: green;
+}
+
+.linkedin {
+    padding-top: 20%;
+    font-size: 20px; 
+}
+.linkedin a{
+    color: blue;
+}
+.github {
+    padding-top: 20%;
+    font-size: 20px;
+}
+.github a{
+    color: blue;
+}
+
+.email {
+    padding-top: 20%;
+    font-size: 20px;
+}
+.email a{
+color: blue;
+}
+
+.phone {
+    padding-top: 20%;
+    font-size: 20px;
+}
+.phone a{
+    color: blue:
+}
+.getInTouch {
+    padding-left: 10%;
+    font-family:  'Ubuntu', sans-serif;
+}
+/* navbar css */
+.background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;  
+}
+
+.navBarFloatLeft {
+    float: left;
+}
+.navBarFloatLeft a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+li a:hover {
+    background-color: #111;   
+}
+/* End navbar CSS */

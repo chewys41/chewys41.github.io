@@ -1,0 +1,65 @@
+body {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+.aboutMeBoxOne {
+    padding-left: 35%;
+    padding-top: 5px;
+    font-size: 30px;
+}
+h1 {
+    font-family: 'Cuprum', sans-serif;
+}
+.educationTable, td, th {
+    border: 1px solid black;
+}
+.educationTable {
+    border: solid;
+    width: 100%;
+}
+.interests {
+    background-color:#88d3ce;
+    width: 15%;
+    padding: 2px;
+    float: left;
+}
+.paragraph {
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top: 20;
+}
+.textSize {
+    font-size: 25px;
+}
+
+
+/* NAVBAR CSS */
+.background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;  
+}
+
+.navBarFloatLeft {
+    float: left;
+}
+.navBarFloatLeft a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+li a:hover {
+    background-color: #111;   
+}
+/* NAVBAR CSS END */
